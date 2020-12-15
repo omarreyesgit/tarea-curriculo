@@ -1,0 +1,269 @@
+body {
+    /* height: 200em; */
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg-dark {
+    background-color: black;
+}
+.nav-link {
+    color: #9e9e9e;
+    transition: all .3s;
+    /* undeline-efects */
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    /* transition: background-size .3s; */
+    /* undeline-efects */
+}
+.nav_color {
+    background-color: black;
+}
+
+.nav-link:hover {
+    color: white;
+    transform: scale(1.1);
+     background-size: 100% 2px;
+}
+
+
+.code {
+ /* position: relative; */
+}
+.animatedParent{
+    margin-top: 0 auto;
+   height: 100px;
+}
+
+.animated-text-color{
+    color: yellow;
+    font-size: 2.3em;
+
+     /* font-size: calc(1em + 1vw); */
+}
+
+.container {
+    background-repeat: no-repeat;
+
+}
+.section_1 {
+    /* position:relative; */
+        background-image: url('/img/code.jpg');
+         height: 480px; 
+        background-size: cover;
+        background-repeat: no-repeat;
+        text-align:center;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+         background-position: center center;
+
+         /* filter: sepia(70%); */
+}
+
+
+
+
+
+/* text-efect-library */
+ .ml5 {
+  position: relative;
+  font-weight: 300;
+  font-size: 2.3em;
+  color: white;
+}
+
+.ml5 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.1em;
+  padding-right: 0.05em;
+  padding-bottom: 0.15em;
+  line-height: 2.4em;
+}
+
+.ml5 .line {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  height: 3px;
+  width: 100%;
+  background-color: white;
+  transform-origin: 0.5 0;
+}
+
+.ml5 .ampersand {
+  font-family: Baskerville, serif;
+  font-style: italic;
+  font-weight: 400;
+  width: 1em;
+  margin-right: -0.1em;
+  margin-left: -0.1em;
+}
+
+.ml5 .letters {
+  display: inline-block;
+  opacity: 0;
+} 
+
+/* text-efect-library */
+
+
+.sectiom_my {
+  /* margin-top: 50px; */
+  clear: both;
+}  
+.box-card {
+    margin-top: 50px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align:center;
+
+}
+.mi_picture {
+  border-radius: 50%;
+}
+
+.icon {
+  font-size: 2em;
+  transition: all .3s ease-in;
+  margin: 10px;
+}
+.icon a {
+  text-decoration: none;
+  color: black;
+    transition: all .3s ease-in;
+
+}
+.icon a:hover {
+  color: lime;
+
+}
+
+.icon:hover  {
+  transform: scale(2) rotate(360deg);
+  color: lime;
+}
+.icon:last-of-type {
+    font-size: 1.5em;
+
+}
+.icon:last-of-type:hover{
+    color: lime;
+      transform: scale(1.3);
+
+
+}
+
+
+.section_3{
+      clear: both;
+           padding-top: 50px;
+           background-color: rgba(0,0,0,.8);
+
+
+}
+
+.section_3-header {
+  text-align: center;
+    clear: both;
+    color: white;
+
+}
+
+.card-link {
+  /* transition: all .3s; */
+  text-decoration: none;
+  color: black;
+}
+.card-img-top {
+  /* border-radius: 10px; */
+}
+.card {
+  margin: 0 auto;
+  transition: all .3s ease-out;
+}
+.card:hover {
+  transform: scale(1.1);
+}
+.card:hover .card-link {
+  text-decoration: underline;
+}
+
+.contact_head {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.contact_head_sub {
+    text-align: center;
+    color:#999;
+   font-size: 14px;
+    line-height: 20px;
+      width: 75%;
+      margin: 0 auto;
+
+}
+
+.form {
+  margin: 0 auto;
+}
+
+.alert {
+  margin: 0 auto;
+  margin-top: 20px;
+  /* display: inline-block; */
+  /* margin-left: 80px; */
+  background-color: #28a745;
+  color:white;
+  text-align:center;
+  /* transition: all .3s ease-out; */
+  display: none;
+}
+
+.footer {
+  width: 100%;
+  height: 180px;
+  background-color: black;
+}
+.footer_icon {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 30px;
+}
+.footer_icon i {
+  color: white;
+  font-size: 1.9em;
+  transition: all .3s ease;
+}
+.footer_icon i:hover {
+  color: lime;
+  transform: scale(1.6);
+}
+
+.mail_icon {
+  text-align: center;
+  padding-top: 30px;
+  color: white;
+    font-size: 1.9em;
+
+
+}
+
+
+
+
+.copy {
+  text-align: center;
+  color:white;
+}
+
