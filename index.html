@@ -14,6 +14,12 @@
 
     <!-- marquesina-libary-end -->
 
+    <!-- skills -->
+        <link rel="stylesheet" href="css/an-skill-bar.css">
+
+
+    <!-- skills -->
+
     <!-- font-awesome -->
     <script
       src="https://kit.fontawesome.com/1aab503326.js"
@@ -119,8 +125,7 @@
           </a>
         </span>
         <span class="icon">
-          <a
-            href="https://github.com/omarreyesgit">
+          <a href="https://github.com/omarreyesgit">
             <i class="fab fa-github"></i>
           </a>
         </span>
@@ -133,6 +138,39 @@
           arturreyes90 <i class="fas fa-at"></i> gmail.com
         </span>
       </div>
+
+      <!-- skills- -->
+          <div class="container">
+  <!-- <h1>An Skill Bar Plugin Demo</h1> -->
+  <div id="skill">
+    <div class="skillbar html">
+      <div class="filled" data-width="90%"></div>
+      <span class="title">HTML</span>
+      <span class="percent">90%</span>
+    </div>
+
+    <div class="skillbar css">
+      <span class="title"></i> CSS</span>
+      <span class="percent">75%</span>
+      <div class="filled" data-width="75%"></div>
+    </div>
+
+    <div class="skillbar js">
+      <span class="title">JS</span>
+      <span class="percent">50%</span>
+      <div class="filled" data-width="50%"></div>
+    </div>
+
+    <div class="skillbar php">
+      <span class="title">VueJs</span>
+      <span class="percent">40%</span>
+      <div class="filled" data-width="40%"></div>
+    </div>
+
+   
+  </div>
+</div>
+      <!-- skills-->
     </section>
     <br />
 
@@ -333,14 +371,16 @@
           <a href="https://www.facebook.com/omararturo.reyeshechavarria">
             <i class="fab fa-facebook"></i>
           </a>
-          <a href="https://www.instagram.com/invites/contact/?i=zko7v1kdjf9s&utm_content=12x5o9j">
-          <i class="fab fa-instagram"></i>
+          <a
+            href="https://www.instagram.com/invites/contact/?i=zko7v1kdjf9s&utm_content=12x5o9j"
+          >
+            <i class="fab fa-instagram"></i>
           </a>
           <a href="https://github.com/omarreyesgit">
-          <i class="fab fa-github"></i>
+            <i class="fab fa-github"></i>
           </a>
           <a href="https://www.linkedin.com/in/omarreyes90">
-          <i class="fab fa-linkedin"></i>
+            <i class="fab fa-linkedin"></i>
           </a>
         </div>
 
@@ -412,11 +452,17 @@
     </script>
     <!-- marquee -->
 
-    <!-- vuejs -->
+    <!-- skills- -->
+      <script src="js/an-skill-bar.js"></script>
+      <script>
+  $(document).ready(function () {
+    $('.skillbar').skillbar({
+        speed: 1000,
+    });
+});
+</script>
 
-    <!-- vuejs-->
-
-    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <!-- skills-->
 
     <!-- firebase -->
     <script src="https://www.gstatic.com/firebasejs/8.1.2/firebase.js"></script>
