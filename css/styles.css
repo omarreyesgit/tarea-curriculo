@@ -1,5 +1,5 @@
 body {
-    /* height: 200em; */
+font-family: 'Dosis', sans-serif;
 }
 *{
     margin: 0;
@@ -21,7 +21,9 @@ body {
     background-size: 0% 2px;
     /* transition: background-size .3s; */
     /* undeline-efects */
+    text-align: center;
 }
+
 .nav_color {
     background-color: black;
 }
@@ -32,10 +34,17 @@ body {
      background-size: 100% 2px;
 }
 
-
-.code {
- /* position: relative; */
+.box-card h1 {
+  font-family: 'Chewy', cursive;
 }
+.box-card h2 {
+ /* font-family: 'Architects Daughter', cursive;
+ font-weight: bold; */
+ font-family: 'Dosis', sans-serif;
+
+}
+
+
 .animatedParent{
     margin-top: 0 auto;
    height: 100px;
@@ -54,7 +63,7 @@ body {
 }
 .section_1 {
     /* position:relative; */
-        background-image: url('/img/code.jpg');
+        background-image: url(../img/code.jpg);
          height: 480px; 
         background-size: cover;
         background-repeat: no-repeat;
@@ -202,12 +211,14 @@ body {
 .contact_head {
   text-align: center;
   padding-top: 20px;
+  width: 70%;
+  margin:0 auto;
 }
 
 .contact_head_sub {
     text-align: center;
     color:#999;
-   font-size: 14px;
+   font-size: 16px;
     line-height: 20px;
       width: 75%;
       margin: 0 auto;
@@ -232,7 +243,7 @@ body {
 
 .footer {
   width: 100%;
-  height: 180px;
+  height: 230px;
   background-color: black;
 }
 .footer_icon {
